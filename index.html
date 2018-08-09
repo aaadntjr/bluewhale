@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blue Whale</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=t0nKXcK5MobHvTeazBAk&submodules=geocoder"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+               <div class="header_wrap">
+                   <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+                    <nav>
+                        <ul class="gnb">
+                            <li class="gnb_list"><a href="#about">About</a></li>
+                            <li class="gnb_list"><a href="#skills">Skills</a></li>
+                            <li class="gnb_list"><a href="#portfolio">Portfolio</a></li>
+                            <li class="gnb_list"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <p class="header_footer">
+                        &copy;2018 Blue Whale.<br> 
+                        All right reserved. 
+                    </p>
+               </div><!--header_wrap-->
+            </header><!--header-->
+            
+            <section>
+                <div class="top_bg">
+                    <p class="top_title">Blue Whale</p>
+                </div><!--top_bg-->
+                
+                <div class="content">
+                    <div class="about" id="about">
+                        <h2 class="title">ABOUT</h2>
+                        <p class="subtitle">안녕하세요 최우석입니다!</p>
+                        <p class="about_txt"><span>개발하는 디자이너</span>를 꿈꾸고 있습니다.</p>
+                    </div><!--about-->
+                    
+                    <div class="skills" id="skills">
+                        <h2 class="title">SKILLS</h2>
+                        <div class="skill_graph">
+                            <ul class="grahp_left">
+                                <li class="graph_item">
+                                    <span class="graph_title">HTML</span>
+                                    <div class="graph_var graph_var85"></div>
+                                    <span class="graph_num">85%</span>
+                                </li>
+                                <li class="graph_item">
+                                    <span class="graph_title">CSS</span>
+                                    <div class="graph_var graph_var90"></div>
+                                    <span class="graph_num">90%</span>
+                                </li>
+                                <li class="graph_item">
+                                    <span class="graph_title">jQuery</span>
+                                    <div class="graph_var graph_var80"></div>
+                                    <span class="graph_num">80%</span>
+                                </li>
+                            </ul><!--left-->
+                            <ul class="grahp_right">
+                                <li class="graph_item">
+                                    <span class="graph_title">Javascript</span>
+                                    <div class="graph_var graph_var75"></div>
+                                    <span class="graph_num">75%</span>
+                                </li>
+                                <li class="graph_item">
+                                    <span class="graph_title">Photoshop</span>
+                                    <div class="graph_var graph_var80"></div>
+                                    <span class="graph_num">80%</span>
+                                </li>
+                                <li class="graph_item">
+                                    <span class="graph_title">Illustrator</span>
+                                    <div class="graph_var graph_var75"></div>
+                                    <span class="graph_num">75%</span>
+                                </li>
+                            </ul><!--right-->
+                        </div><!--graph-->
+                    </div><!--skills-->
+                    
+                    
+                    <div class="portfolio" id="portfolio">
+                        <h2 class="title">PORTFOLIO</h2>
+                        <div class="port port01">
+                            <a href="http://aaadntjr.dothome.co.kr/" target="_blank" class="port_pc mmm_pc"></a>
+                            <a href="https://github.com/aaadntjr/MMM" target="_blank" class="port_mo mmm_mo"></a>
+                            <div class="port_txt">
+                                <h3 class="port_title">Responsive Web</h3>
+                                <ul class="port_list">
+                                    <li class="port_list_item">Creatived brand</li>
+                                    <li class="port_list_item">Minimalism concept</li>
+                                    <li class="port_list_item">5 Break point</li>
+                                    <li class="port_list_item">Design : 6day</li>
+                                    <li class="port_list_item">Publishing : 5day</li>
+                                </ul>
+                            </div>
+                        </div><!--port-->
+                        <div class="port port02">
+                            <div class="port_txt">
+                                <h3 class="port_title">Renewal Web Design</h3>
+                                <ul class="port_list">
+                                    <li class="port_list_item">Public enterprise</li>
+                                    <li class="port_list_item">Trust color concept</li>
+                                    <li class="port_list_item">Main color : <span>#014099</span></li>
+                                    <li class="port_list_item">Design : 5day</li>
+                                    <li class="port_list_item">Publishing : 3day</li>
+                                </ul>
+                            </div>
+                            <a href="http://aaadntjr3.dothome.co.kr/" target="_blank" class="port_pc kep_sub"></a>
+                            <a href="https://github.com/aaadntjr/kepco" target="_blank" class="port_pc kep_main"></a>
+                        </div><!--port-->
+                        <div class="port port03">
+                            <a href="https://aaadntjr.github.io/jaju/#" target="_blank" class="port_pc jaju"></a>
+                            <div class="port_txt">
+                                <h3 class="port_title">Practice site</h3>
+                                <ul class="port_list">
+                                    <li class="port_list_item">Renewal web design</li>
+                                    <li class="port_list_item">3D layout</li>
+                                    <li class="port_list_item">Animation technic</li>
+                                    <li class="port_list_item">Fullpage perspective</li>
+                                    <li class="port_list_item">Incompletion</li>
+                                </ul>
+                            </div>
+                        </div><!--port-->
+                    </div><!--portfolio-->
+                    
+                    <div class="contact" id="contact">
+                        <div class="contact_left">
+                            <h3 class="title">
+                                CONTACT
+                            </h3>
+                            <ul class="contact_list">
+                                <li class="contact_item">
+                                    <a href="mailto:aaadntjr@naver.com">
+                                        aaadntjr@naver.com
+                                    </a>    
+                                </li>
+                                <li class="contact_item">
+                                    010 - 5337 - 5168
+                                </li>
+                                <li class="contact_item">
+                                    대전광역시 대덕구 비래동로 44
+                                </li>
+                            </ul>
+                        </div><!--left-->
+                        <div class="contact_right" id="map">
+                            지도
+                        </div>
+                    </div><!--contact-->
+                </div><!--content-->
+            </section><!--section-->
+            <footer>
+                <p>&copy; 2018 Blue whale.  All right reserved. </p>
+            </footer>
+        </div>    <!--wrap-->
+    </body>
+</html>
