@@ -25,8 +25,7 @@ $(document).ready(function(){
     };
     
     var map = new naver.maps.Map('map', mapOptions);
-    
-    //map.panBy(new naver.maps.Point(700, -130));
+
     
     marker = new naver.maps.Marker({
         map: map,

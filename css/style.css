@@ -166,6 +166,7 @@ section {
     background: -webkit-gradient(linear,left top, right top,from(#3177d5),to(#00ffea));
     background: linear-gradient(90deg,#3177d5,#00ffea);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: 400;
 }
@@ -291,7 +292,7 @@ section {
     overflow: hidden;
 }
 .port_pc::after {
-    content:'more';
+    content:'view';
     width: 260px;
     height: 147px;
     line-height: 150px;
@@ -311,6 +312,9 @@ section {
     -o-transition: .8s;
     transition: .8s;
 }
+.kep_main::after {
+    content: 'code';
+}
 .port_pc:hover::after {
     opacity: 1;
     left: 10px;
@@ -324,7 +328,7 @@ section {
     opacity: 1;
 }
 .port_mo::after {
-    content:'more';
+    content:'code';
     width: 70px;
     height: 143px;
     line-height: 143px;
